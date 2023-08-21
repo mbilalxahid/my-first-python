@@ -4,7 +4,7 @@ from Rk4_solve import Rk4_solve
 # import math
 
 
-h = 0.2
+h = 0.0002
 t_0 = 0.0
 t_f = 2.0
 y_0 = 0.5

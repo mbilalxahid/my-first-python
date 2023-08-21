@@ -15,13 +15,13 @@ class Rk4_solve:
         self.step_size = step_size
         self.h = h
 
-    # def rk4(self):
-    #     t_0 =self.t_0
-    #     t_f = self.t_f
-    #     step_size = self.step_size
-    #     y_0 = self.y_0
-    #     h =self.h
-    #     t_periods = np.linspace(t_0, t_f, step_size)
+    def rk4(self):
+        t_0 =self.t_0
+        t_f = self.t_f
+        step_size = self.step_size
+        y_0 = self.y_0
+        h =self.h
+        t_periods = np.linspace(t_0, t_f, step_size)
 
         for i in range(len(t_periods) - 1):
             t = float(t_periods[i])
